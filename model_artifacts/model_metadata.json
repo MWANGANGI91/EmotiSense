@@ -1,0 +1,19 @@
+{
+    "project": "GoEmotions Multi-Label Emotion Classification",
+    "dataset": "Google Research GoEmotions",
+    "task": "Multi-label text classification",
+    "model": "TF-IDF + One-vs-Rest Logistic Regression",
+    "number_of_emotions": 28,
+    "training_examples": 43410,
+    "validation_examples": 5426,
+    "test_examples": 5427,
+    "selected_threshold_strategy": "Individual thresholds",
+    "global_comparison_threshold": 0.175,
+    "test_micro_f1": 0.5375,
+    "test_macro_f1": 0.4586,
+    "test_precision": 0.4828,
+    "test_recall": 0.6063,
+    "test_hamming_loss": 0.0435,
+    "test_exact_match": 0.3378,
+    "important_limitation": "English-language emotion classification benchmark; not a clinical mental-health diagnostic tool."
+}
