@@ -5,3 +5,7 @@ __pycache__/
 venv/
 .DS_Store
 *.log
+
+# Private EmotiSense presentation files - do not publish
+docs/presentation/EmotiSense_Interview_Presentation.pptx
+docs/presentation/create_presentation.py
